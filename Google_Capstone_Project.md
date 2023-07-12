@@ -714,7 +714,7 @@ all_trips_v2 %>%
     ## `summarise()` has grouped output by 'customer_type'. You can override using the
     ## `.groups` argument.
 
-![](Google_Capstone_Project_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![](/unnamed-chunk-29-1.png)<!-- -->
 
     [] We can see that more members ride during the weekday than casuals 
     [] Casuals ride more than members on the weekday. 
@@ -772,7 +772,7 @@ all_trips_v2 %>%
     ## `summarise()` has grouped output by 'customer_type'. You can override using the
     ## `.groups` argument.
 
-![](Google_Capstone_Project_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
+![](/unnamed-chunk-31-1.png)<!-- -->
 
     [] During the winter months both members and casuals number of rides is less than summer and fall months. 
     [] Summer months are the most busiest as both customer types ride the most. 
@@ -793,7 +793,7 @@ all_trips_v2 %>%
     ## `summarise()` has grouped output by 'customer_type'. You can override using the
     ## `.groups` argument.
 
-![](Google_Capstone_Project_files/figure-gfm/unnamed-chunk-32-1.png)<!-- -->
+![](/unnamed-chunk-32-1.png)<!-- -->
 
     [] Casuals take longer trips than members 
     [] Casuals take the longest trips on the weekend 
@@ -816,7 +816,7 @@ theme(axis.text.x = element_text(angle = 30))
     ## `summarise()` has grouped output by 'customer_type'. You can override using the
     ## `.groups` argument.
 
-![](Google_Capstone_Project_files/figure-gfm/unnamed-chunk-33-1.png)<!-- -->
+![](/unnamed-chunk-33-1.png)<!-- -->
 
     [] Casuals take twice as long on trips as members throughout the year. 
     [] Members take usually take more time in the summer and fall on their trips 
@@ -854,7 +854,7 @@ all_trips_v2 %>%
     ## `summarise()` has grouped output by 'ride_type'. You can override using the
     ## `.groups` argument.
 
-![](Google_Capstone_Project_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
+![](/unnamed-chunk-34-1.png)<!-- -->
 
     [] No members used docked bikes.
     [] Members took classic and electric bikes more than casuals 
