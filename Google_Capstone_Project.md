@@ -1,4 +1,4 @@
-Google Capstone Project
+Google Capstone Project Using R
 ================
 
 # Case Study: How Does a Bike-Share Navigate Speedy Success?
