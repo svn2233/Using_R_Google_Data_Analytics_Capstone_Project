@@ -44,6 +44,16 @@ getwd()
 ### \[2\] Install Packages:
 
     Install Required Packages and Libraries
+    
+    install.packages("tidyverse")
+    install.packages("ggplot2")
+    install.packages("lubridate")
+    install.packages("dplyr")
+    install.packages("readr")
+    install.packages("janitor")
+    install.packages("data.table")
+    install.packages("tidyr")
+    
     1.tidyverse is used for metapackage of all tidyverse packages
     2.lubridate is used for date functions
     3.ggplot2 is used for visualization
