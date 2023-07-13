@@ -18,3 +18,4 @@ The objective is to analysis how annual members and non-annual members use the s
 ## Why I chose to use R 
 R will be used as the tool that will be used for Cleaning, Documentation and Preparation of data for analysis. As R is more efficient than other methods as it would be more time consuming. Furthermore, with R I will be able to not only analysis the data but visualize and do data wrangling as well.
 
+[direct link to project](https://github.com/svn2233/Google-Capstone-R/blob/33f16c33b864c49017a00e6353542637188f90fe/Google_%20Capstone_%20Project_R.md)
