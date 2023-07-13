@@ -1,40 +1,37 @@
-Google Capstone Project Using R
-================
+Google Data Analytics Capstone Project Using R 
 
-# Case Study: How Does a Bike-Share Navigate Speedy Success?
+By: Steven Nguyen
 
-# Introduction
+# Case Study: How Does a Bike-Share Navigate Speedy Success? 
+
+## Introduction
 
 #### This case study is apart of the Google Data Analytics Professional certification. The case study is on Cyclist, which is a bikeshare company that details customers trips over a 12 month period (Oct 21-Sep22). The data is made available by Motivate International Inc under this license <https://ride.divvybikes.com/data-license-agreement> . I will follow the 6 steps of data analysis that I learned in this certification. They are Ask, Prepare, Process, Analyze , Share and Act. (A.P.P.A.S.A).
 
-# Scenario
+## Scenario
 
 #### I’m a data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The company wants to maximize the total of annual members. In order to do this we need to understand how casual riders and annual members use the service differently.
 
-# 1. Ask
+## 1. ASK
 
-# Objective
+## Data Set Range
+**I have chosen 12 datasets for this project from October 2021 to
+September 2022. Each dataset shows the details of every ride of the
+customers of Cyclists.**
+
+## Objective
 
 #### The objective is to analysis how annual members and non-annual members use the service differently. From the analysis and visualization come up with a marketing strategy on how to maximize annual memberships.
 
-# Stakeholders
+## Stakeholders
 
     [] Lily Moreno- Director Of Marketing
 
     [] Cyclistic Executive Team
 
-# 2. PREPARE
+## 2. PREPARE
 
-I have chosen 12 datasets for this project from October 2021 to
-September 2022. Each dataset shows the details of every ride of the
-customers of Cyclists.
-
-Tools that will be used for Cleaning, Documentation and Preparation of
-data for analysis.
-
-I will use R as it is more efficient than spreadsheets as cleaning data
-will be very time consuming. With R I will be able to not only analysis
-the data but visualize and do data wrangling as well.
+R will be used as the tool that will be used for Cleaning, Documentation and Preparation of data for analysis. As R is more efficient than other methods as it would be more time consuming. Furthermore, with R I will be able to not only analysis the data but visualize and do data wrangling as well.
 
 ### \[1\] Check Working Directory
 
@@ -377,7 +374,7 @@ str(Sep22)
     ##  $ end_lng           : num  -87.7 -87.6 -87.6 -87.7 -87.7 ...
     ##  $ member_casual     : chr  "casual" "casual" "casual" "casual" ...
 
-# 3.PROCESS
+## 3.PROCESS
 
 ### \[7\] Now Data is ready to process. I will now bind all the datasets into a single data frame
 
@@ -626,7 +623,7 @@ setNames(aggregate(trip_duration ~ customer_type, all_trips_v2, sum), c("custome
     ## 1        casual                  70501793
     ## 2        member                  43756816
 
-# 4. Analyze
+## 4. Analyze
 
     Now the dataframe is ready for descriptive analysis. 
 
@@ -694,7 +691,7 @@ all_trips_v2$month <- ordered(all_trips_v2$month, levels=c("Oct_21", "Nov_21", "
     ## 13 member        Sat                      458222                  14.3
     ## 14 member        Sun                      393601                  14.2
 
-# 5.Share
+## 5.Share
 
     Time to use R to Visualize our data:
 
@@ -865,7 +862,7 @@ all_trips_v2 %>%
 write.csv(all_trips, "google_capstone_R.csv")
 ```
 
-# 6. Act
+## 6. Act
 
 ### Key takeaways
 
