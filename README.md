@@ -1,21 +1,11 @@
 # Google Capstone Project Using R
 
 ## Introduction
-This case study is apart of the Google Data Analytics Professional certification. The case study is on Cyclist, which is a bikeshare company that details customers trips over a 12 month period (Oct 21-Sep22). The data is made available by Motivate International Inc under this license https://ride.divvybikes.com/data-license-agreement . I will follow the 6 steps of data analysis that I learned in this certification. They are Ask, Prepare, Process, Analyze , Share and Act. (A.P.P.A.S.A).
-Scenario
-I’m a data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The company wants to maximize the total of annual members. In order to do this we need to understand how casual riders and annual members use the service differently.
 
-## Dataset Range
-I have chosen 12 datasets for this project from October 2021 to September 2022. Each dataset shows the details of every ride of the customers of Cyclists.
+This case study is a part of the Google Data Analytics Professional certification. It focuses on Cyclist, a bikeshare company that records customer trips over a 12-month period (October 21 to September 22). The data is made available by Motivate International Inc under this license: https://ride.divvybikes.com/data-license-agreement. To conduct the analysis, I will follow the six steps of data analysis learned in this certification, which are: Ask, Prepare, Process, Analyze, Share, and Act (A.P.P.A.S.A).
 
-## Objective
-The objective is to analysis how annual members and non-annual members use the service differently. From the analysis and visualization come up with a marketing strategy on how to maximize annual memberships.
+## Scenario
 
-## Stakeholders
-1. Lily Moreno- Director Of Marketing
-2. Cyclistic Executive Team
-
-## Why I chose to use R 
-R will be used as the tool that will be used for Cleaning, Documentation and Preparation of data for analysis. As R is more efficient than other methods as it would be more time consuming. Furthermore, with R I will be able to not only analysis the data but visualize and do data wrangling as well.
+I am a data analyst working in the marketing analyst team at Cyclistic, a bike-share company based in Chicago. The company's objective is to maximize the number of annual members. To achieve this goal, we need to gain a comprehensive understanding of how casual riders and annual members utilize the bike-sharing service differently. By analyzing their usage patterns and behaviors, we can identify potential strategies to encourage more customers to become annual members and thereby boost overall membership.
 
 [direct link to project](https://github.com/svn2233/Google-Capstone-R/blob/33f16c33b864c49017a00e6353542637188f90fe/Google_%20Capstone_%20Project_R.md)
