@@ -6,22 +6,23 @@ By: Steven Nguyen
 
 ## Introduction
 
-#### This case study is apart of the Google Data Analytics Professional certification. The case study is on Cyclist, which is a bikeshare company that details customers trips over a 12 month period (Oct 21-Sep22). The data is made available by Motivate International Inc under this license <https://ride.divvybikes.com/data-license-agreement> . I will follow the 6 steps of data analysis that I learned in this certification. They are Ask, Prepare, Process, Analyze , Share and Act. (A.P.P.A.S.A).
+This case study is a part of the Google Data Analytics Professional certification. It focuses on Cyclist, a bikeshare company that records customer trips over a 12-month period (October 21 to September 22). The data is made available by Motivate International Inc under this license: https://ride.divvybikes.com/data-license-agreement. To conduct the analysis, I will follow the six steps of data analysis learned in this certification, which are: Ask, Prepare, Process, Analyze, Share, and Act (A.P.P.A.S.A).
 
 ## Scenario
 
-#### I’m a data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The company wants to maximize the total of annual members. In order to do this we need to understand how casual riders and annual members use the service differently.
+I am a data analyst working in the marketing analyst team at Cyclistic, a bike-share company based in Chicago. The company's objective is to maximize the number of annual members. To achieve this goal, we need to gain a comprehensive understanding of how casual riders and annual members utilize the bike-sharing service differently. By analyzing their usage patterns and behaviors, we can identify potential strategies to encourage more customers to become annual members and thereby boost overall membership.
 
 ## 1. ASK
 
-## Data Set Range
-**I have chosen 12 datasets for this project from October 2021 to
+**Data Set Range**
+
+I have chosen 12 datasets for this project from October 2021 to
 September 2022. Each dataset shows the details of every ride of the
-customers of Cyclists.**
+customers of Cyclists.
 
 ## Objective
 
-#### The objective is to analysis how annual members and non-annual members use the service differently. From the analysis and visualization come up with a marketing strategy on how to maximize annual memberships.
+The objective is to analyze how annual members and non-annual members use the service differently. Through in-depth analysis and visualization, we aim to identify key differences in their usage patterns and behaviors. Based on these insights, we will develop a targeted marketing strategy to maximize annual memberships. 
 
 ## Stakeholders
 
@@ -31,7 +32,7 @@ customers of Cyclists.**
 
 ## 2. PREPARE
 
-R will be used as the tool that will be used for Cleaning, Documentation and Preparation of data for analysis. As R is more efficient than other methods as it would be more time consuming. Furthermore, with R I will be able to not only analysis the data but visualize and do data wrangling as well.
+R will be the primary tool used for cleaning, documenting, and preparing the data for analysis. Its efficiency makes it more suitable compared to other methods, as it significantly reduces time-consuming tasks. Additionally, R's versatility allows for not only data analysis but also data visualization and data wrangling. This comprehensive approach will enable me to gain deeper insights from the data and effectively present the findings to stakeholders.
 
 ### \[1\] Check Working Directory
 
@@ -876,20 +877,14 @@ write.csv(all_trips, "google_capstone_R.csv")
 
 ### Key takeaways
 
-    [] Casual customers use the bike share services more from Friday-Sunday than weekdays. While members uses the services more consistently during the week. 
-
-    [] Casual riders prefer docked bikes than members as no members used docked bikes. Members use more classic bikes and electric bikes than casual. 
-
-    [] Casual riders like electric bikes the most followed by classic than docked. 
-
-    [] Members prefer classic bikes than electric bikes. 
+* Casual customers use the bike share services more frequently from Friday to Sunday, with higher usage on weekends compared to weekdays. On the other hand, members use the services more consistently throughout the entire week.
+* Casual riders tend to prefer docked bikes over members, as no members use docked bikes. However, members show a preference for classic bikes and electric bikes compared to casual riders.
+* Among the bike options, casual riders prefer electric bikes the most, followed by classic bikes and then docked bikes.
+* Members, on the other hand, prefer classic bikes over electric bikes.
 
 ### Recommendations
 
-    [] Introduce a “happy hour” format where during the non busy hours especially during the weekend are at a discounted rate this will increase ridership during the slow days and slow times thus increasing ridership. 
-
-    [] Introduce a reward base system for memberships like a free ride every 10 rides during a month. Also have special discounts for members. These suggestions will entice members to stay members and casuals to sign up. 
-
-    [] Offer a one time discount for casuals to sign up for new membership. 
-
-    [] Offer a referral system like once a person refers someone they get X number of rides free.
+* Implement a "happy hour" format where discounted rates are offered during non-busy hours, especially on weekends. This strategy aims to increase ridership during slower periods, thereby boosting overall ridership.
+* Introduce a reward-based system for memberships, such as offering a free ride for every 10 rides taken within a month. Additionally, provide special discounts exclusively for members. These initiatives will incentivize existing members to remain loyal and attract new customers to sign up for memberships.
+* Offer a one-time discount for casual customers to encourage them to sign up for a new membership. This promotional offer can act as an incentive for casual riders to become members.
+* Introduce a referral system where individuals receive a certain number of free rides for every successful referral. This referral program will not only increase membership sign-ups but also encourage existing members to refer friends and family.
