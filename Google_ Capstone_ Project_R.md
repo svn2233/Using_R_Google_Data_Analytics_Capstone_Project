@@ -1,8 +1,6 @@
-Google Data Analytics Capstone Project Using R 
+# Google Data Analytics Capstone Project Using R
 
 By: Steven Nguyen
-
-# Case Study: How Does a Bike-Share Navigate Speedy Success? 
 
 ## Introduction
 
